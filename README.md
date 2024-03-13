@@ -1,1 +1,1 @@
-# intmemoir-processed-data
+# intMEMOIR-data-for-paper
