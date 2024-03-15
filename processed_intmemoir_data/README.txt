@@ -1,4 +1,4 @@
-This directory contains the data files for the intMEMOIR dataset. Within each directory (named s*c*) there exists 4 files:
+This directory contains the data files for the intMEMOIR dataset. Within each data directory (named s*c*) there exists 4 files:
 
 (1) characters.txt
 (2) leaf_locations.txt
@@ -18,3 +18,13 @@ cell_name, x_coordinate, y_coordinate
 (4) This file contains the true tree topology for this experiment, in newick format.
 
 We store some of the files for the raw intMEMOIR files in a zip file in this directory. The original authors of intMEMOIR include a complete version of their raw data, and we refer those interested to download those files directly from them. 
+
+Furthermore, inside the results directory we also have an identical directory structure (a directory for each tree named s*c*). Inside each of these subdirectories we have the following files: (1) problin.txt (2) spalin.txt, (3) spalin-divide-beta*.txt, (4) spalin_spatialonly.txt, (5) spalin-divide-beta5_spatialonly.txt. We describe each of these files below:
+
+(1) Contains the results of the sequence-only model for the data belonging to that directory. 
+(2) Contains the results of the sequence+location model assumming brownian motion (no symmetric displacement).
+(3) A set of files corresponding to the sequence+location model results for different radius amounts (value specified by * value). 
+(4) The results of the location model only assuming Brownian motion.
+(5) The results of the location only model assuming symmetric diplacement with radius=5.
+
+For every results file (the .txt files), there is an identical log file with the same name but with the .log extension.
