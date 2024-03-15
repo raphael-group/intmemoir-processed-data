@@ -1,0 +1,86 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s14c6/k10_r1_character_matrix.csv -t real_location_data/s14c6/true_tree.nwk -S real_location_data/s14c6/leaf_locations.txt --delimiter comma -p real_location_data/s14c6/k10_priors.csv -o real_location_data/s14c6/k10_r1_spalin-divide-beta5.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 5
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 1222
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 113.97740009696044
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.2778036239397328
+Lambda: 0.008640689090360672
+Initial point 2. Random seed: 4707
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 113.9773991785396
+Dropout rate: 2.0013197966217454e-10
+Silencing rate: 1.000022004591228e-10
+Sigma: 1.277736279010505
+Lambda: 0.008640222519200045
+Initial point 3. Random seed: 5865
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 113.97721926655862
+Dropout rate: 1.3241277047211323e-10
+Silencing rate: 1.0004555250542934e-10
+Sigma: 1.2776838405364184
+Lambda: 0.00863931907864135
+Initial point 4. Random seed: 8483
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 113.97721927921955
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.2776595704579499
+Lambda: 0.00863892824260542
+Initial point 5. Random seed: 1047
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 113.97721906351532
+Dropout rate: 3.4872026368529553e-10
+Silencing rate: 3.7538682244231733e-10
+Sigma: 1.277748681885423
+Lambda: 0.008640141314314455
+Initial point 6. Random seed: 2125
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 113.97753673358235
+Dropout rate: 1.504596520707058e-10
+Silencing rate: 1.0000642515796169e-10
+Sigma: 1.2768990347514086
+Lambda: 0.008639719472971583
+Initial point 7. Random seed: 9315
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 113.97721922426791
+Dropout rate: 2.3920961614271614e-10
+Silencing rate: 1.7421225427992612e-10
+Sigma: 1.277775508433372
+Lambda: 0.008640665664271501
+Initial point 8. Random seed: 4289
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 113.97735392279999
+Dropout rate: 5.687837448508792e-10
+Silencing rate: 1.4288091685119345e-10
+Sigma: 1.2779073955911104
+Lambda: 0.00864044571915051
+Initial point 9. Random seed: 7968
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 114.24234736219618
+Dropout rate: 1.7960008434633411e-10
+Silencing rate: 1.0007840410906492e-10
+Sigma: 1.2851814670311932
+Lambda: 0.010212892425819
+Initial point 10. Random seed: 7667
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 113.97721978119031
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.2777474656189443
+Lambda: 0.008640282416048658
+{'lambda_param': 0.008640141314314455, 'phi': 3.4872026368529553e-10, 'nu': 3.7538682244231733e-10, 'sigma': 1.277748681885423, 'locations': {'216_14': (312.0, 290.0), '216_8': (296.0, 329.0), '216_7': (287.0, 340.0), '216_10': (311.0, 304.0), '216_9': (303.0, 322.0), '216_4': (294.0, 350.0), '216_6': (326.0, 339.0), '216_5': (319.0, 358.0), '216_3': (310.0, 361.0), '216_2': (308.0, 375.0), '216_1': (292.0, 382.0)}, 'radius': 5.0, 'thetas': {'211_1': 2.72919283343651, '171_1': 8.368511435973776, '214_5': 8.20697829065047, '178_3': -0.04783760413292329, '115_1': 1.7514177313047263, '203_6': 8.272202610813485, '207_5': 2.256535113184402, '170_3': 5.335396182311772, '119_3': 1.9397748654474747, '58_3': 7.828180947034487}}
+Runtime (s): 343.36334994249046

@@ -1,0 +1,86 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s2c10/k10_r1_character_matrix.csv -t real_location_data/s2c10/true_tree.nwk -S real_location_data/s2c10/leaf_locations.txt --delimiter comma -p real_location_data/s2c10/k10_priors.csv -o real_location_data/s2c10/k10_r1_spalin-divide-beta5.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 5
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 5469
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 175.6005121362632
+Dropout rate: 9.999999999999996e-11
+Silencing rate: 1e-10
+Sigma: 1.4647343051061883
+Lambda: 0.0009767152436536849
+Initial point 2. Random seed: 8269
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 175.59666929020796
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.4645753736420468
+Lambda: 0.0009769092728577438
+Initial point 3. Random seed: 2504
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 155.4003185508093
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.5543923146361331
+Lambda: 0.005598989669900412
+Initial point 4. Random seed: 7524
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 175.59712906691684
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.4646306397664604
+Lambda: 0.0009768892431859862
+Initial point 5. Random seed: 4147
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 155.3998778522095
+Dropout rate: 1.558350941507843e-10
+Silencing rate: 1.351223471287228e-10
+Sigma: 1.554692257190272
+Lambda: 0.005598697866884584
+Initial point 6. Random seed: 7966
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 175.6011192100921
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.4639647625440666
+Lambda: 0.0009766885398413932
+Initial point 7. Random seed: 6086
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 175.60053903195183
+Dropout rate: 2.159970273530853e-10
+Silencing rate: 1.2141780921072923e-10
+Sigma: 1.4651514974247133
+Lambda: 0.0009767178793321967
+Initial point 8. Random seed: 340
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 155.399877469696
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1.0000000000000002e-10
+Sigma: 1.554722299972015
+Lambda: 0.005598788217002002
+Initial point 9. Random seed: 1058
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 155.39987740511708
+Dropout rate: 3.022147198113835e-10
+Silencing rate: 2.0850966808935926e-10
+Sigma: 1.5547674859995755
+Lambda: 0.005598877300301123
+Initial point 10. Random seed: 1930
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 155.39987751426492
+Dropout rate: 1.822805444512387e-10
+Silencing rate: 1.3936726668882307e-10
+Sigma: 1.5547961247803375
+Lambda: 0.005598816781854935
+{'lambda_param': 0.005598877300301123, 'phi': 3.022147198113835e-10, 'nu': 2.0850966808935926e-10, 'sigma': 1.5547674859995755, 'locations': {'216_13': (210.0, 280.0), '216_15': (180.0, 220.0), '216_14': (219.0, 214.0), '216_11': (206.0, 338.0), '216_10': (191.0, 310.0), '216_9': (146.0, 326.0), '216_6': (155.0, 313.0), '216_5': (171.0, 327.0), '216_2': (213.0, 321.0), '216_1': (200.0, 319.0), '216_4': (182.0, 282.0), '216_3': (176.0, 305.0)}, 'radius': 5.0, 'thetas': {'207_2': 1.8259850819429968, '209_1': 3.2942398353055604, '165_1': 10.19092284198852, '210_5': 7.002012829158482, '120_1': 12.208155804423233, '177_5': 2.799959156905578, '123_3': 3.5618965814023134, '70_1': -71.63880812476383, '179_9': 6.130516925370901, '129_5': 4.56779446877218, '23_1': -4.402930240276241}}
+Runtime (s): 231.3795825317502

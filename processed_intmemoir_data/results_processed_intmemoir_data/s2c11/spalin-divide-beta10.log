@@ -1,0 +1,31 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c intmem_real_data/s2c11/characters.txt -t intmem_real_data/s2c11/true_tree.nwk -S intmem_real_data/s2c11/leaf_locations.txt --delimiter comma -p intmem_real_data/s2c11/prior.csv -o intmem_real_data/s2c11/spalin-divide-beta10.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 10
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 2532
+Solving with ultrametric constraint
+Traceback (most recent call last):
+  File "/u/gh2161/miniconda3/lib/python3.10/site-packages/scipy/optimize/_constraints.py", line 159, in _input_validation
+    self.lb = np.broadcast_to(self.lb, shape)
+  File "/u/gh2161/miniconda3/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 413, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "/u/gh2161/miniconda3/lib/python3.10/site-packages/numpy/lib/stride_tricks.py", line 349, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (0,)  and requested shape (1,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/u/gh2161/Spatial-Division/problin/run_problin.py", line 220, in <module>
+    main()
+  File "/u/gh2161/Spatial-Division/problin/run_problin.py", line 170, in main
+    nllh = mySolver.optimize(initials=args["nInitials"],fixed_phi=fixed_phi,fixed_nu=fixed_nu,verbose=args["verbose"],random_seeds=random_seeds,ultra_constr=args["ultrametric"],optimize_brlens=True)      
+  File "/n/fs/grad/gh2161/Spatial-Division/problin/problin_libs/ML_solver.py", line 330, in optimize
+    nllh,status = self.optimize_one(randseed,fixed_phi=fixed_phi,fixed_nu=fixed_nu,verbose=verbose,ultra_constr=ultra_constr,optimize_brlens=optimize_brlens)
+  File "/n/fs/grad/gh2161/Spatial-Division/problin/problin_libs/Spatial_Division_solver.py", line 228, in optimize_one
+    constraints.append(optimize.LinearConstraint(csr_matrix(M),[0]*len(M),[0]*len(M),keep_feasible=False))
+  File "/u/gh2161/miniconda3/lib/python3.10/site-packages/scipy/optimize/_constraints.py", line 182, in __init__
+    self._input_validation()
+  File "/u/gh2161/miniconda3/lib/python3.10/site-packages/scipy/optimize/_constraints.py", line 165, in _input_validation
+    raise ValueError(message)
+ValueError: `lb`, `ub`, and `keep_feasible` must be broadcastable to shape `A.shape[0:1]`

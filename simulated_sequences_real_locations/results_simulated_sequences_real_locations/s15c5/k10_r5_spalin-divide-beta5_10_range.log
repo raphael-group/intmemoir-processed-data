@@ -1,0 +1,76 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s15c5/k10_r5_character_matrix.csv -t real_location_data/s15c5/true_tree.nwk -S real_location_data/s15c5/leaf_locations.txt --delimiter comma -p real_location_data/s15c5/k10_priors.csv -o real_location_data/s15c5/k10_r5_spalin-divide-beta5_10_range.txt --nInitials 10 --ultrametric --randomreps 3 --divide --given_lower_beta 5 --given_upper_beta 10 --incl_beta_bound
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+{'sigma': 22, 'nu': 1e-10, 'phi': 1e-10, 'lower_beta': 5.0, 'upper_beta': 10.0, 'incl_beta_bound': True, 'displacement_amounts': {}}
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 5872
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 125.91138366453143
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 5.1538776969825495
+Initial point 2. Random seed: 9430
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 126.29633111818617
+Dropout rate: 9.999999999999996e-11
+Silencing rate: 1e-10
+Sigma: 5.2609342456225905
+Initial point 3. Random seed: 2975
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 126.74183382810236
+Dropout rate: 3.101388360447292e-09
+Silencing rate: 5.376169091990451e-10
+Sigma: 5.354326303222246
+Initial point 4. Random seed: 9526
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 128.17240737937763
+Dropout rate: 7.890557264175572e-09
+Silencing rate: 4.2487011759726155e-09
+Sigma: 5.814560248675374
+Initial point 5. Random seed: 5564
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 127.58365733114934
+Dropout rate: 5.0201485511189075e-08
+Silencing rate: 1.9324558730680694e-08
+Sigma: 5.501805555081784
+Initial point 6. Random seed: 6592
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 127.66362680013597
+Dropout rate: 6.685924615040589e-09
+Silencing rate: 3.002626585018915e-09
+Sigma: 5.519004017602009
+Initial point 7. Random seed: 1371
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 128.47628984259666
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 5.941887599628314
+Initial point 8. Random seed: 6842
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 127.58683551881225
+Dropout rate: 1.2694462485458863e-08
+Silencing rate: 4.1060534864715046e-10
+Sigma: 5.537026374293666
+Initial point 9. Random seed: 496
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 127.58021817105423
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0000000000000007e-10
+Sigma: 5.493462646557912
+Initial point 10. Random seed: 1605
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 128.59168376197766
+Dropout rate: 5.9164909752001086e-08
+Silencing rate: 2.740680573038046e-09
+Sigma: 6.111770265598109
+Runtime (s): 157.26032302342355

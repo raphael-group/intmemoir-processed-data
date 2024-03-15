@@ -1,0 +1,8 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c intmem_real_data/s18c3/characters.txt -t intmem_real_data/s18c3/true_tree.nwk -S intmem_real_data/s18c3/leaf_locations.txt --delimiter comma -p intmem_real_data/s18c3/prior.csv -o intmem_real_data/s18c3/spalin-divide-beta5.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 5
+Traceback (most recent call last):
+  File "/u/gh2161/Spatial-Division/problin/run_problin.py", line 220, in <module>
+    main()
+  File "/u/gh2161/Spatial-Division/problin/run_problin.py", line 76, in main
+    with open(args["topology"],'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'intmem_real_data/s18c3/true_tree.nwk'

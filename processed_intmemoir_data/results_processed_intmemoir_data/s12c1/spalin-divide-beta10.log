@@ -1,0 +1,86 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c intmem_real_data/s12c1/characters.txt -t intmem_real_data/s12c1/true_tree.nwk -S intmem_real_data/s12c1/leaf_locations.txt --delimiter comma -p intmem_real_data/s12c1/prior.csv -o intmem_real_data/s12c1/spalin-divide-beta10.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 10
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 9391
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 110.62506411616451
+Dropout rate: 2.417637419556481e-10
+Silencing rate: 2.1835363940559112e-10
+Sigma: 1.097619625516868
+Lambda: 0.003743503322428927
+Initial point 2. Random seed: 3614
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 110.62597707914651
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.0982362731611746
+Lambda: 0.003737190660731308
+Initial point 3. Random seed: 9394
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 110.62506720189862
+Dropout rate: 1.028014287349231e-10
+Silencing rate: 1.0098546319203439e-10
+Sigma: 1.0977276238452103
+Lambda: 0.0037438011367133244
+Initial point 4. Random seed: 156
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 110.62509516730208
+Dropout rate: 1.4382528950536654e-10
+Silencing rate: 1.1696255235553091e-10
+Sigma: 1.0976080347513282
+Lambda: 0.0037446164654013226
+Initial point 5. Random seed: 7217
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 110.62521537153955
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.097580206557918
+Lambda: 0.0037416934396198335
+Initial point 6. Random seed: 6671
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 110.62508072104728
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.0976723120488243
+Lambda: 0.003744450432771055
+Initial point 7. Random seed: 1630
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 110.62506484955196
+Dropout rate: 1.6266802482515083e-10
+Silencing rate: 1.0477010652651388e-10
+Sigma: 1.09771170555866
+Lambda: 0.0037447860092537136
+Initial point 8. Random seed: 2649
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 120.46613014017976
+Dropout rate: 1.1400862290937947e-10
+Silencing rate: 1.0715829204351362e-10
+Sigma: 1.0717358483514876
+Lambda: 0.000976789741446135
+Initial point 9. Random seed: 3835
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 110.62506366726973
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.0976829466201097
+Lambda: 0.0037439250335313846
+Initial point 10. Random seed: 7167
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 110.62601127458368
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.09778598814212
+Lambda: 0.0037483696366896707
+{'lambda_param': 0.0037439250335313846, 'phi': 1e-10, 'nu': 1e-10, 'sigma': 1.0976829466201097, 'locations': {'216_6': (167.0, 100.0), '216_5': (161.0, 131.0), '216_8': (198.0, 104.0), '216_7': (189.0, 124.0), '216_2': (226.0, 98.0), '216_1': (216.0, 123.0), '216_4': (275.0, 99.0), '216_3': (252.0, 121.0)}, 'radius': 10.0, 'thetas': {'182_2': 14.944783126436299, '183_1': 1.9513107767397084, '128_1': -0.006474832560964062, '169_4': 8.276833301883542, '171_3': 14.328343758080484, '128_2': 6.228459298147497, '78_1': 6.211753372134453}}
+Runtime (s): 130.46067464898806

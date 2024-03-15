@@ -1,0 +1,81 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c intmem_real_data/s5c12/characters.txt -t intmem_real_data/s5c12/true_tree.nwk -S intmem_real_data/s5c12/leaf_locations.txt --delimiter comma -p intmem_real_data/s5c12/prior.csv -o intmem_real_data/s5c12/spalin-divide-beta7.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 7
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 9083
+Solving with ultrametric constraint
+Fatal: failed to optimize using initial point 1
+Initial point 2. Random seed: 58
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 297.00746694092345
+Dropout rate: 4.632480556078887e-09
+Silencing rate: 1.0011675822206394e-10
+Sigma: 1.2789386396196758
+Lambda: 0.003838608324854426
+Initial point 3. Random seed: 3691
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 297.00722114531914
+Dropout rate: 1.0000408272171627e-10
+Silencing rate: 1.000010566338915e-10
+Sigma: 1.278952152153894
+Lambda: 0.0038371991430588863
+Initial point 4. Random seed: 1983
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 297.00764003094025
+Dropout rate: 2.358779329393694e-09
+Silencing rate: 1.3724196745828478e-10
+Sigma: 1.2796808682970315
+Lambda: 0.0038393681340569965
+Initial point 5. Random seed: 2522
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 297.0071996050891
+Dropout rate: 1.000508642647478e-10
+Silencing rate: 1.0001316348887143e-10
+Sigma: 1.278960040957446
+Lambda: 0.0038375862325011924
+Initial point 6. Random seed: 9092
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 297.00748354378834
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0381592025554492e-10
+Sigma: 1.2791195173050585
+Lambda: 0.0038430789543141856
+Initial point 7. Random seed: 7344
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 297.0073554253257
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0233538584823166e-10
+Sigma: 1.2790954313157503
+Lambda: 0.003838581705202109
+Initial point 8. Random seed: 1389
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 297.00735380967865
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.6623798247193138e-10
+Sigma: 1.2789471870593452
+Lambda: 0.0038372978380787916
+Initial point 9. Random seed: 3193
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 297.007310600106
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0000000000000007e-10
+Sigma: 1.2784742146811137
+Lambda: 0.0038354029084978593
+Initial point 10. Random seed: 9914
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 43166.408710224634
+Dropout rate: 0.00024258701373432937
+Silencing rate: 0.0357296980942893
+Sigma: 3.9138130074645474
+Lambda: 13.473381039001158
+{'lambda_param': 0.0038375862325011924, 'phi': 1.000508642647478e-10, 'nu': 1.0001316348887143e-10, 'sigma': 1.278960040957446, 'locations': {'216_4': (143.0, 314.0), '216_3': (131.0, 317.0), '216_2': (119.0, 300.0), '216_1': (130.0, 303.0), '216_30': (182.0, 267.0), '216_29': (176.0, 293.0), '216_28': (169.0, 305.0), '216_27': (163.0, 319.0), '216_26': (213.0, 303.0), '216_25': (195.0, 320.0), '216_24': (129.0, 275.0), '216_23': (140.0, 291.0), '216_22': (181.0, 315.0), '216_21': (152.0, 324.0), '216_16': (155.0, 273.0), '216_15': (139.0, 279.0), '216_14': (127.0, 291.0), '216_13': (99.0, 293.0), '216_17': (151.0, 299.0), '216_20': (201.0, 288.0), '216_19': (192.0, 306.0), '216_8': (159.0, 263.0), '216_7': (168.0, 279.0), '216_6': (198.0, 269.0), '216_5': (189.0, 293.0), '216_9': (190.0, 334.0), '216_12': (209.0, 280.0)}, 'radius': 7.0, 'thetas': {'162_5': 5.050706085970575, '204_3': 1.9295667279715778, '205_5': 1.0584070059942015, '165_5': 0.3164330085682027, '124_5': 0.9119009794629831, '209_16': 2.0344450833021686, '169_10': 6.240215074628826, '205_10': 3.070283867117224, '213_14': 2.7828219772873117, '170_9': 2.7152750250028084, '129_7': 0.2929191742284425, '85_3': 6.3484253645891995, '176_13': 2.8406715959063384, '180_15': 0.9685079299903326, '130_9': 0.8518798229987152, '209_21': 2.38475875638635, '213_24': 1.9756881151110972, '172_15': 6.2908084681901135, '178_18': 8.0807830284769, '132_11': 1.3423403363566817, '86_5': 3.0426922860058774, '42_2': -7.147988099435355, '207_1': 6.549437104608179, '213_3': -3.386571404509057, '163_3': 3.9834826849851104, 'virtual': -0.3183457495336273}}
+Runtime (s): 2774.2481403313577

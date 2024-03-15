@@ -1,0 +1,82 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s7c5/k10_r4_character_matrix.csv -t real_location_data/s7c5/true_tree.nwk -S real_location_data/s7c5/leaf_locations.txt --delimiter comma -p real_location_data/s7c5/k10_priors.csv -o real_location_data/s7c5/k10_r4_spalin-divide-ignore-beta.txt --nInitials 10 --ultrametric --randomreps 3 --divide
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+We need to optimize the radius
+Initial point 1. Random seed: 4470
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 130.48546185505916
+Dropout rate: 2.4291083959976107e-10
+Silencing rate: 1.6325887525743338e-10
+Sigma: 1.2561518942684595
+Lambda: 0.007227784288375902
+Initial point 2. Random seed: 4941
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 130.48546164122874
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.2561370055904169
+Lambda: 0.007227495134746934
+Initial point 3. Random seed: 2855
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 156.79232254736354
+Dropout rate: 1.1212569989919265e-10
+Silencing rate: 1.0239094062615064e-10
+Sigma: 1.2500482219349764
+Lambda: 0.0009766450979287742
+Initial point 4. Random seed: 5323
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 130.48546167436507
+Dropout rate: 1.563522136451693e-09
+Silencing rate: 1.0479036055394788e-09
+Sigma: 1.256116600083214
+Lambda: 0.0072271883252237185
+Initial point 5. Random seed: 3362
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 130.48546143116397
+Dropout rate: 3.313202159572298e-10
+Silencing rate: 1.0270865792694461e-10
+Sigma: 1.2560767659221668
+Lambda: 0.00722756857242177
+Initial point 6. Random seed: 6480
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 156.79114957902198
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.2503522392641544
+Lambda: 0.0009766944867875913
+Initial point 7. Random seed: 9643
+Solving with ultrametric constraint
+Fatal: failed to optimize using initial point 7
+Initial point 8. Random seed: 3528
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 130.48546138870856
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 9.999999999999996e-11
+Sigma: 1.2560952578053004
+Lambda: 0.00722769657723675
+Initial point 9. Random seed: 7736
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 156.79107087844122
+Dropout rate: 3.72413232251111e-10
+Silencing rate: 1.0321983589056553e-10
+Sigma: 1.2495097168590972
+Lambda: 0.000976697377505734
+Initial point 10. Random seed: 2247
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 130.48546154743542
+Dropout rate: 6.308674118708963e-10
+Silencing rate: 3.420196409502535e-10
+Sigma: 1.256147120547046
+Lambda: 0.007227420890071155
+{'lambda_param': 0.00722769657723675, 'phi': 1.0000000000000007e-10, 'nu': 9.999999999999996e-11, 'sigma': 1.2560952578053004, 'locations': {'216_4': (178.0, 214.0), '216_3': (154.0, 258.0), '216_5': (150.0, 209.0), '216_7': (122.0, 175.0), '216_6': (103.0, 185.0), '216_9': (162.0, 180.0), '216_8': (165.0, 198.0), '216_11': (151.0, 142.0), '216_10': (172.0, 156.0), '216_13': (202.0, 164.0), '216_12': (187.0, 191.0), '216_15': (185.0, 120.0), '216_14': (198.0, 137.0)}, 'radius': 11.85304257181294, 'thetas': {'207_8': 6.871189616275263, '210_7': 1.4056416516917392, '166_6': 4.6615028493558475, '215_6': 2.6571168114211288, '173_5': 3.7990524300722495, '115_3': 5.607358307426447, '205_10': 7.201133060354224, '208_10': 2.0778851493771833, '159_8': 4.649677413811475, '45_2': 2.628445982734615, '186_2': 2.07014999250795, 'virtual': 4.750259851717205}}
+Runtime (s): 357.3517935872078

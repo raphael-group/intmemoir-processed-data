@@ -1,0 +1,87 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s14c6/k10_r2_character_matrix.csv -t real_location_data/s14c6/true_tree.nwk -S real_location_data/s14c6/leaf_locations.txt --delimiter comma -p real_location_data/s14c6/k10_priors.csv -o real_location_data/s14c6/k10_r2_spalin-divide-ignore-beta.txt --nInitials 10 --ultrametric --randomreps 3 --divide
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+We need to optimize the radius
+Initial point 1. Random seed: 1606
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 107.16783904185152
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0000000000000002e-10
+Sigma: 0.867153204593257
+Lambda: 0.0009766959908615318
+Initial point 2. Random seed: 7979
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 83.54756048583343
+Dropout rate: 1e-10
+Silencing rate: 1.2881769149254347e-10
+Sigma: 0.8649012630258491
+Lambda: 0.008734129508724032
+Initial point 3. Random seed: 6720
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 83.547244328051
+Dropout rate: 1.4318080425046472e-10
+Silencing rate: 1.0457546716584921e-10
+Sigma: 0.864683909607599
+Lambda: 0.008737354663779983
+Initial point 4. Random seed: 3825
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 83.54724361420494
+Dropout rate: 2.949150196338674e-10
+Silencing rate: 1e-10
+Sigma: 0.8647170258878483
+Lambda: 0.008735228609990094
+Initial point 5. Random seed: 5620
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 202.7559635090484
+Dropout rate: 8.135297424469013e-06
+Silencing rate: 1.33563202605672e-10
+Sigma: 2.619035162529411
+Lambda: 0.07711518643653047
+Initial point 6. Random seed: 127
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 83.54724337222765
+Dropout rate: 2.1031125791058055e-10
+Silencing rate: 1.0003622742975418e-10
+Sigma: 0.8646973563974263
+Lambda: 0.008735036714815932
+Initial point 7. Random seed: 792
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 83.54724339515758
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 0.8646825158087391
+Lambda: 0.008735154382587448
+Initial point 8. Random seed: 241
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 83.54724342949825
+Dropout rate: 3.391856186295796e-10
+Silencing rate: 1.0002752863510507e-10
+Sigma: 0.8647018361201884
+Lambda: 0.00873475236882676
+Initial point 9. Random seed: 9910
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 107.12795683678092
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 0.8669580211555385
+Lambda: 0.0009792002397521137
+Initial point 10. Random seed: 311
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 83.5472433109307
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 0.8646970668453013
+Lambda: 0.008734812827673787
+{'lambda_param': 0.008734812827673787, 'phi': 1.0000000000000002e-10, 'nu': 1e-10, 'sigma': 0.8646970668453013, 'locations': {'216_14': (312.0, 290.0), '216_8': (296.0, 329.0), '216_7': (287.0, 340.0), '216_10': (311.0, 304.0), '216_9': (303.0, 322.0), '216_4': (294.0, 350.0), '216_6': (326.0, 339.0), '216_5': (319.0, 358.0), '216_3': (310.0, 361.0), '216_2': (308.0, 375.0), '216_1': (292.0, 382.0)}, 'radius': 9.834812167828733, 'thetas': {'211_1': 9.012367011663395, '171_1': 8.372582265850097, '214_5': 8.20697198161904, '178_3': 6.230822756325282, '115_1': 1.735210287637854, '203_6': 8.272206014556142, '207_5': 8.539711130211133, '170_3': 5.3377738815253535, '119_3': 1.9404941634082347, '58_3': 7.82867781348171}}
+Runtime (s): 175.0834567770362

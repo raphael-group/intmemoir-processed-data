@@ -1,0 +1,86 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s5c2/k10_r3_character_matrix.csv -t real_location_data/s5c2/true_tree.nwk -S real_location_data/s5c2/leaf_locations.txt --delimiter comma -p real_location_data/s5c2/k10_priors.csv -o real_location_data/s5c2/k10_r3_spalin-divide-beta5.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 5
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 4628
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 173.40326101876363
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.3365232928496877
+Lambda: 0.005456780661542518
+Initial point 2. Random seed: 5355
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 173.40324190182181
+Dropout rate: 2.7397333629908354e-10
+Silencing rate: 2.2924454053191817e-10
+Sigma: 1.3364737719412338
+Lambda: 0.005457913029281166
+Initial point 3. Random seed: 8733
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 173.40324197165233
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.3365528081742641
+Lambda: 0.005458829164780359
+Initial point 4. Random seed: 9649
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 173.40373607096504
+Dropout rate: 9.999999999999996e-11
+Silencing rate: 1.0000000000000002e-10
+Sigma: 1.337497619358854
+Lambda: 0.005454477155681692
+Initial point 5. Random seed: 2007
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 195.08490145096133
+Dropout rate: 2.0597703167636004e-10
+Silencing rate: 1.3702894044356865e-10
+Sigma: 1.2895588821596675
+Lambda: 0.000976785866355174
+Initial point 6. Random seed: 9127
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 173.40324238243022
+Dropout rate: 1.0000000000000002e-10
+Silencing rate: 1e-10
+Sigma: 1.3365413303920672
+Lambda: 0.005458781516156171
+Initial point 7. Random seed: 9251
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 195.0861684325094
+Dropout rate: 1.2736828587873452e-10
+Silencing rate: 1.0918735758263333e-10
+Sigma: 1.2886114212030768
+Lambda: 0.0009767554794337136
+Initial point 8. Random seed: 7022
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 173.40331785743646
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.3366992834769316
+Lambda: 0.00546240298166208
+Initial point 9. Random seed: 8434
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 173.40407331701954
+Dropout rate: 3.470142876487458e-10
+Silencing rate: 2.6824810057316057e-10
+Sigma: 1.3363069065897994
+Lambda: 0.005461883297023138
+Initial point 10. Random seed: 9975
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 173.40404577499254
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.3372610097654876
+Lambda: 0.005457725486742765
+{'lambda_param': 0.005457913029281166, 'phi': 2.7397333629908354e-10, 'nu': 2.2924454053191817e-10, 'sigma': 1.3364737719412338, 'locations': {'216_10': (386.0, 445.0), '216_9': (355.0, 433.0), '216_15': (357.0, 410.0), '216_14': (299.0, 417.0), '216_13': (324.0, 431.0), '216_2': (308.0, 407.0), '216_1': (290.0, 405.0), '216_4': (324.0, 403.0), '216_3': (325.0, 417.0), '216_6': (369.0, 402.0), '216_5': (383.0, 416.0), '216_7': (408.0, 438.0)}, 'radius': 5.0, 'thetas': {'189_3': 0.7853439617740012, '146_2': 3.897457854170601, '193_2': 1.4993756748618443, '194_1': 3.2523291253067756, '150_1': 6.441640262869707, '93_1': 6.467727124524164, '187_7': 0.5104958472328162, '150_5': 2.890292680547864, '193_7': 3.510939390694566, '93_2': 3.6357718523742433, '45_1': 4.908056642108085}}
+Runtime (s): 448.38734647538513

@@ -1,0 +1,64 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s5c7/k10_r5_character_matrix.csv -t real_location_data/s5c7/true_tree.nwk --delimiter comma -p real_location_data/s5c7/k10_priors.csv -o real_location_data/s5c7/k10_r5_problin.txt --nInitials 10 --ultrametric --randomreps 3 --solver Scipy
+Optimization by generic solver (Scipy-SLSQP)
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 1864
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 91.31690174042605
+Dropout rate: 5.108915776389336e-10
+Silencing rate: 2.9408499517505034e-10
+Lambda: 0.0074776426909639645
+Initial point 2. Random seed: 2501
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 91.3172128384692
+Dropout rate: 1.0484166050404758e-10
+Silencing rate: 1.9129981169607052e-10
+Lambda: 0.00747294808902713
+Initial point 3. Random seed: 1274
+Solving with ultrametric constraint
+Fatal: failed to optimize using initial point 3
+Initial point 4. Random seed: 4647
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 91.31700028016343
+Dropout rate: 7.29216228028181e-09
+Silencing rate: 2.7634819522476704e-09
+Lambda: 0.007475390709870859
+Initial point 5. Random seed: 3966
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 91.3168874955657
+Dropout rate: 1e-10
+Silencing rate: 9.999999999999999e-11
+Lambda: 0.007477470104052037
+Initial point 6. Random seed: 1700
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 91.31694153700467
+Dropout rate: 9.999999999999924e-11
+Silencing rate: 1.0000000000000007e-10
+Lambda: 0.0074771312863739356
+Initial point 7. Random seed: 2837
+Solving with ultrametric constraint
+Fatal: failed to optimize using initial point 7
+Initial point 8. Random seed: 5973
+Solving with ultrametric constraint
+Fatal: failed to optimize using initial point 8
+Initial point 9. Random seed: 4662
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 91.3171242540251
+Dropout rate: 5.633863177856206e-09
+Silencing rate: 2.149560988021265e-09
+Lambda: 0.007476260196637011
+Initial point 10. Random seed: 6195
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 91.31765586895985
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Lambda: 0.007471121741744368
+{'phi': 1e-10, 'nu': 9.999999999999999e-11, 'lambda_param': 0.007477470104052037}
+Runtime (s): 313.9150914698839

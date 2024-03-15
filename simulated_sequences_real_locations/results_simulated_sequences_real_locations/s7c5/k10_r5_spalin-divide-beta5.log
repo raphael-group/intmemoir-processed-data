@@ -1,0 +1,86 @@
+Launching Problin version 0.5b
+Problin was called as follow: /u/gh2161/Spatial-Division/problin/run_problin.py -c real_location_data/s7c5/k10_r5_character_matrix.csv -t real_location_data/s7c5/true_tree.nwk -S real_location_data/s7c5/leaf_locations.txt --delimiter comma -p real_location_data/s7c5/k10_priors.csv -o real_location_data/s7c5/k10_r5_spalin-divide-beta5.txt --nInitials 10 --ultrametric --randomreps 3 --divide --radius 5
+Optimization by Spalin-Divide: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 5589
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 147.52449183125523
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.8580026105794876
+Lambda: 0.004504458456977372
+Initial point 2. Random seed: 2763
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 159.54506333523673
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.7023763366195945
+Lambda: 0.0009766854252239
+Initial point 3. Random seed: 2155
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 147.52449152977593
+Dropout rate: 9.999999999999996e-11
+Silencing rate: 1e-10
+Sigma: 1.8578772017516763
+Lambda: 0.004504835120138548
+Initial point 4. Random seed: 7384
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 159.54483562212346
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.7017839401935675
+Lambda: 0.0009766958503472224
+Initial point 5. Random seed: 8899
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 159.54550922866463
+Dropout rate: 8.54753935757463e-10
+Silencing rate: 2.3584468467842544e-10
+Sigma: 1.7031123129394437
+Lambda: 0.0009766520413790137
+Initial point 6. Random seed: 4896
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 147.52449153657028
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Sigma: 1.8578220700567991
+Lambda: 0.004504993149431127
+Initial point 7. Random seed: 9498
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 147.52449159640557
+Dropout rate: 1.9446287517076607e-10
+Silencing rate: 1.2343429295626455e-10
+Sigma: 1.8578218754986833
+Lambda: 0.004504686306227279
+Initial point 8. Random seed: 7851
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 159.5441627520417
+Dropout rate: 1.1778833464423499e-10
+Silencing rate: 1.0446583143027338e-10
+Sigma: 1.7024894465432512
+Lambda: 0.0009767432797394098
+Initial point 9. Random seed: 9878
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 147.52449186638256
+Dropout rate: 5.493544084336716e-10
+Silencing rate: 2.8054576477388034e-10
+Sigma: 1.8579127599964451
+Lambda: 0.004504842751406305
+Initial point 10. Random seed: 9102
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 159.54504323316127
+Dropout rate: 1.5948832708521065e-09
+Silencing rate: 5.131718677313408e-10
+Sigma: 1.7029587282040841
+Lambda: 0.0009766765033988503
+{'lambda_param': 0.004504835120138548, 'phi': 9.999999999999996e-11, 'nu': 1e-10, 'sigma': 1.8578772017516763, 'locations': {'216_4': (178.0, 214.0), '216_3': (154.0, 258.0), '216_5': (150.0, 209.0), '216_7': (122.0, 175.0), '216_6': (103.0, 185.0), '216_9': (162.0, 180.0), '216_8': (165.0, 198.0), '216_11': (151.0, 142.0), '216_10': (172.0, 156.0), '216_13': (202.0, 164.0), '216_12': (187.0, 191.0), '216_15': (185.0, 120.0), '216_14': (198.0, 137.0)}, 'radius': 5.0, 'thetas': {'207_8': 6.871294830768446, '210_7': 1.4056593275256077, '166_6': -1.594310397977286, '215_6': 2.657125100972391, '173_5': 3.7902306768499012, '115_3': 5.558101424228012, '205_10': 7.201191116582542, '208_10': 2.077853535024457, '159_8': 4.645637710609869, '45_2': 2.642979470934685, '186_2': 2.070059067278013, 'virtual': -7.837747122804335}}
+Runtime (s): 469.21917319484055
