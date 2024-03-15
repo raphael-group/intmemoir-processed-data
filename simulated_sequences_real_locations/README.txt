@@ -30,6 +30,8 @@ Furthermore, inside the results directory we also have an identical directory st
 
 For every results file, the # indicates the replicate number (there should be 5 replicates for each directory).
 
+Compiled results are stored in simulated_seq_real_loc_sigma_results.csv (for sigma estimates), and simulated_seq_real_loc_brlen_results.csv (for branch length estimates)
+
 For every results file (the .txt files), there is an identical log file with the same name but with the .log extension.
 
 More details ---
