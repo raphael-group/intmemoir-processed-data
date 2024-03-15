@@ -28,3 +28,5 @@ Furthermore, inside the results directory we also have an identical directory st
 (5) The results of the location only model assuming symmetric diplacement with radius=5.
 
 For every results file (the .txt files), there is an identical log file with the same name but with the .log extension.
+
+Compiled results are stored in intmem_sigma_results.csv (for sigma estimates), and intmem_brlen_results.csv (for branch length estimates)
