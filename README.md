@@ -4,7 +4,7 @@ This repository holds intMEMOIR data that was used for the recent ISMB submissio
 
 There are 3 setups that were used in this paper:
 
-- Fully simulated data (simulated sequences and simulated locations)
+- Fully simulated data (simulated sequences and simulated locations) (the raw data can be downloaded from the original authors, but we also store data files we used within a .zip in this directory as well).
 - Semi-Synthetic data (simulated sequences, but using real locations)
 - Real data (sequences and locations both come from real intMEMOIR experiments)
 
