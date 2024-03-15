@@ -22,3 +22,13 @@ A file exists for each value of sigma assumming a Brownian motion model for spat
 
 (5) This file contains the true tree topology for this experiment, in newick format.
 
+We also include a directory with the results on this data (called results_simulated_seq_simulated_locations/). Inside are the following files: (1) k#_problin.txt, (2) k#_sigma*_spalin.txt, (3) k#_sigma*_spalin_spatialonly.txt
+
+(1) Contains the results of simulated data with # number of sites using the sequence-only model.
+(2) Contains the results of the simulated data with # number of sites and with spatial information which is simulated to be gaussian with sigma = *. using the sequence + spatial model.
+(3) Same as the above, but only using the spatial model (not using the sequence information). 
+
+The results are also compiled in fully_simulated_gaussian_brlen_results.csv (for branch lengths), and fully_simulated_gaussian_sigma_results.csv (for the estimated sigma's)
+
+
+
