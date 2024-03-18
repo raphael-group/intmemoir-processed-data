@@ -22,3 +22,5 @@ A file exists for each value of sigma assumming a Brownian motion model for spat
 
 (5) This file contains the true tree topology for this experiment, in newick format.
 
+Furthermore, we also include our own outputs of the results (see k*_problin.txt and k*_sigma*_spalin.txt) for the sequence only and sequence + spatial results, respectively. 
+
