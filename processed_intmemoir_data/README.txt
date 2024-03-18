@@ -19,7 +19,7 @@ cell_name, x_coordinate, y_coordinate
 
 We store some of the files for the raw intMEMOIR files in a zip file in this directory. The original authors of intMEMOIR include a complete version of their raw data, and we refer those interested to download those files directly from them. 
 
-Furthermore, inside the results directory we also have an identical directory structure (a directory for each tree named s*c*). Inside each of these subdirectories we have the following files: (1) problin.txt (2) spalin.txt, (3) spalin-divide-beta*.txt, (4) spalin_spatialonly.txt, (5) spalin-divide-beta5_spatialonly.txt. We describe each of these files below:
+Furthermore, we also include our own outputs of the results in the files: (1) problin.txt (2) spalin.txt, (3) spalin-divide-beta*.txt, (4) spalin_spatialonly.txt, (5) spalin-divide-beta5_spatialonly.txt. We describe each of these files below:
 
 (1) Contains the results of the sequence-only model for the data belonging to that directory. 
 (2) Contains the results of the sequence+location model assumming brownian motion (no symmetric displacement).
